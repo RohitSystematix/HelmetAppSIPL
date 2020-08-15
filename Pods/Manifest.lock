@@ -1,0 +1,24 @@
+PODS:
+  - Alamofire (5.2.2)
+  - ReachabilitySwift (5.0.0)
+  - SwiftyUtils (5.2.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ReachabilitySwift
+  - SwiftyUtils
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ReachabilitySwift
+    - SwiftyUtils
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  SwiftyUtils: 4c99e810e769063dbd5d4e83b486961a5d470aeb
+
+PODFILE CHECKSUM: 91a2fd0b5acc44a1d8f24ed4da2b08a68e11038f
+
+COCOAPODS: 1.9.3

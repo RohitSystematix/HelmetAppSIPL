@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Smart_Helmet" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Y1d-Q6-c8x">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="8ai-VQ-maK"/>
+                                </connections>
+                            </mapView>
+                            <searchBar contentMode="redraw" text="Current Locaton" placeholder="Source" translatesAutoresizingMaskIntoConstraints="NO" id="sI4-UQ-Cp0">
+                                <rect key="frame" x="20" y="84" width="374" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Lk5-GE-xsk"/>
+                                </connections>
+                            </searchBar>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="sI4-UQ-Cp0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="2W5-0g-iFr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="sI4-UQ-Cp0" secondAttribute="trailing" constant="20" id="BYR-NJ-TyL"/>
+                            <constraint firstItem="Y1d-Q6-c8x" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="X8L-Ki-c42"/>
+                            <constraint firstItem="Y1d-Q6-c8x" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gxI-gP-SvO"/>
+                            <constraint firstItem="sI4-UQ-Cp0" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="l4C-bI-S7S"/>
+                            <constraint firstAttribute="bottom" secondItem="Y1d-Q6-c8x" secondAttribute="bottom" id="lUp-NZ-7tv"/>
+                            <constraint firstItem="Y1d-Q6-c8x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="nqq-lD-PII"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="Y1d-Q6-c8x" id="PF1-sk-yVP"/>
+                        <outlet property="searchBar" destination="sI4-UQ-Cp0" id="N4F-ug-eHi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="112.5"/>
+        </scene>
+    </scenes>
+</document>
