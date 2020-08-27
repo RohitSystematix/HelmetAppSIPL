@@ -25,6 +25,17 @@
 		51AA32EF24D9390100A0066E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AA32EE24D9390100A0066E /* MapKit.framework */; };
 		51AA32F424D93B2500A0066E /* MapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51AA32F324D93B2500A0066E /* MapsViewController.swift */; };
 		6757E0B71FED041FDFC7B22B /* Pods_Smart_Helmet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56AE2A62D80566E96CC3ED3B /* Pods_Smart_Helmet.framework */; };
+		F95A1E8D24F79B980018D93A /* ExploreRouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8224F79B980018D93A /* ExploreRouteViewController.swift */; };
+		F95A1E8E24F79B980018D93A /* LocationSearchTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8324F79B980018D93A /* LocationSearchTable.swift */; };
+		F95A1E8F24F79B980018D93A /* Instructions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8524F79B980018D93A /* Instructions.swift */; };
+		F95A1E9024F79B980018D93A /* Instructions.plist in Resources */ = {isa = PBXBuildFile; fileRef = F95A1E8624F79B980018D93A /* Instructions.plist */; };
+		F95A1E9124F79B980018D93A /* track.gpx in Resources */ = {isa = PBXBuildFile; fileRef = F95A1E8724F79B980018D93A /* track.gpx */; };
+		F95A1E9224F79B980018D93A /* DirectionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8824F79B980018D93A /* DirectionsViewController.swift */; };
+		F95A1E9324F79B980018D93A /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8924F79B980018D93A /* NavigationViewController.swift */; };
+		F95A1E9424F79B980018D93A /* DirectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8A24F79B980018D93A /* DirectionTableViewCell.swift */; };
+		F95A1E9524F79B980018D93A /* RouteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8B24F79B980018D93A /* RouteViewController.swift */; };
+		F95A1E9624F79B980018D93A /* LocationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E8C24F79B980018D93A /* LocationService.swift */; };
+		F95A1E9A24F79BE40018D93A /* CustomExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95A1E9924F79BE40018D93A /* CustomExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +61,17 @@
 		56AE2A62D80566E96CC3ED3B /* Pods_Smart_Helmet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Smart_Helmet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CDCC9ED6A6DC6C6B10153AE /* Pods-Smart Helmet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Helmet.debug.xcconfig"; path = "Target Support Files/Pods-Smart Helmet/Pods-Smart Helmet.debug.xcconfig"; sourceTree = "<group>"; };
 		B74F3521CAA39AC7C5B6D8E5 /* Pods-Smart Helmet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Smart Helmet.release.xcconfig"; path = "Target Support Files/Pods-Smart Helmet/Pods-Smart Helmet.release.xcconfig"; sourceTree = "<group>"; };
+		F95A1E8224F79B980018D93A /* ExploreRouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExploreRouteViewController.swift; sourceTree = "<group>"; };
+		F95A1E8324F79B980018D93A /* LocationSearchTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationSearchTable.swift; sourceTree = "<group>"; };
+		F95A1E8524F79B980018D93A /* Instructions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Instructions.swift; sourceTree = "<group>"; };
+		F95A1E8624F79B980018D93A /* Instructions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Instructions.plist; sourceTree = "<group>"; };
+		F95A1E8724F79B980018D93A /* track.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = track.gpx; sourceTree = "<group>"; };
+		F95A1E8824F79B980018D93A /* DirectionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionsViewController.swift; sourceTree = "<group>"; };
+		F95A1E8924F79B980018D93A /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		F95A1E8A24F79B980018D93A /* DirectionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DirectionTableViewCell.swift; sourceTree = "<group>"; };
+		F95A1E8B24F79B980018D93A /* RouteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouteViewController.swift; sourceTree = "<group>"; };
+		F95A1E8C24F79B980018D93A /* LocationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationService.swift; sourceTree = "<group>"; };
+		F95A1E9924F79BE40018D93A /* CustomExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,7 @@
 		32A8690824D832BE00C2C440 /* Smart Helmet */ = {
 			isa = PBXGroup;
 			children = (
+				F95A1E9724F79BE40018D93A /* Utility */,
 				51AA32F224D93B1100A0066E /* Maps */,
 				32CBF29B24D8362A00C45726 /* Libraries */,
 				32A8690924D832BE00C2C440 /* AppDelegate.swift */,
@@ -136,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				51AA32F324D93B2500A0066E /* MapsViewController.swift */,
+				F95A1E8124F79B980018D93A /* Route */,
 			);
 			path = Maps;
 			sourceTree = "<group>";
@@ -149,6 +173,47 @@
 				56AE2A62D80566E96CC3ED3B /* Pods_Smart_Helmet.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F95A1E8124F79B980018D93A /* Route */ = {
+			isa = PBXGroup;
+			children = (
+				F95A1E8224F79B980018D93A /* ExploreRouteViewController.swift */,
+				F95A1E8324F79B980018D93A /* LocationSearchTable.swift */,
+				F95A1E8424F79B980018D93A /* RoutePlist */,
+				F95A1E8824F79B980018D93A /* DirectionsViewController.swift */,
+				F95A1E8924F79B980018D93A /* NavigationViewController.swift */,
+				F95A1E8A24F79B980018D93A /* DirectionTableViewCell.swift */,
+				F95A1E8B24F79B980018D93A /* RouteViewController.swift */,
+				F95A1E8C24F79B980018D93A /* LocationService.swift */,
+			);
+			path = Route;
+			sourceTree = "<group>";
+		};
+		F95A1E8424F79B980018D93A /* RoutePlist */ = {
+			isa = PBXGroup;
+			children = (
+				F95A1E8524F79B980018D93A /* Instructions.swift */,
+				F95A1E8624F79B980018D93A /* Instructions.plist */,
+				F95A1E8724F79B980018D93A /* track.gpx */,
+			);
+			path = RoutePlist;
+			sourceTree = "<group>";
+		};
+		F95A1E9724F79BE40018D93A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F95A1E9824F79BE40018D93A /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F95A1E9824F79BE40018D93A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F95A1E9924F79BE40018D93A /* CustomExtension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,6 +277,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				32A8691624D832BF00C2C440 /* LaunchScreen.storyboard in Resources */,
+				F95A1E9024F79B980018D93A /* Instructions.plist in Resources */,
+				F95A1E9124F79B980018D93A /* track.gpx in Resources */,
 				32A8691324D832BF00C2C440 /* Assets.xcassets in Resources */,
 				32A8691124D832BE00C2C440 /* Main.storyboard in Resources */,
 			);
@@ -266,14 +333,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F95A1E8F24F79B980018D93A /* Instructions.swift in Sources */,
+				F95A1E9224F79B980018D93A /* DirectionsViewController.swift in Sources */,
+				F95A1E8E24F79B980018D93A /* LocationSearchTable.swift in Sources */,
 				32CBF2A624D836A500C45726 /* BLEDeviceScan.swift in Sources */,
 				32CBF2A724D836A500C45726 /* BLEDeviceProperties.swift in Sources */,
 				32CBF2A824D836A500C45726 /* BLEDeviceRSSI.swift in Sources */,
+				F95A1E9624F79B980018D93A /* LocationService.swift in Sources */,
 				32CBF2A524D836A500C45726 /* Extensions.swift in Sources */,
+				F95A1E8D24F79B980018D93A /* ExploreRouteViewController.swift in Sources */,
+				F95A1E9324F79B980018D93A /* NavigationViewController.swift in Sources */,
 				32CBF2AA24D836A500C45726 /* BLEDeviceDiscoverServices.swift in Sources */,
+				F95A1E9424F79B980018D93A /* DirectionTableViewCell.swift in Sources */,
 				32A8690E24D832BE00C2C440 /* ViewController.swift in Sources */,
 				32A8690A24D832BE00C2C440 /* AppDelegate.swift in Sources */,
 				32A8690C24D832BE00C2C440 /* SceneDelegate.swift in Sources */,
+				F95A1E9524F79B980018D93A /* RouteViewController.swift in Sources */,
+				F95A1E9A24F79BE40018D93A /* CustomExtension.swift in Sources */,
 				32CBF2A924D836A500C45726 /* BLEManager.swift in Sources */,
 				32CBF2A424D836A500C45726 /* BLEDeviceConnection.swift in Sources */,
 				51AA32F424D93B2500A0066E /* MapsViewController.swift in Sources */,
